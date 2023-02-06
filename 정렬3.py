@@ -1,0 +1,23 @@
+n, k = map(int, input().split())
+
+#array_a = []
+#array_b = []
+
+array_a = list(map(int, input().split()))
+
+
+array_b = list(map(int, input().split()))
+
+array_a.sort()
+array_b.sort(reverse=True)
+
+for i in range(k):
+  if array_a[i]<array_b[i]:
+    array_a[i], array_b[i] = array_b[i], array_a[i]
+  else:
+    break
+sum = 0
+for i in range(n):
+  sum+=array_a[i]
+
+print(sum)
