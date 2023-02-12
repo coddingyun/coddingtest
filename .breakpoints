@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "problem/graph/45.py": [
+      {
+        "id": "18ac394f-327d-4eb8-abc1-e337278277b9",
+        "line": 25,
+        "version": 1227,
+        "index": 521
+      }
+    ]
+  }
 }
